@@ -1,9 +1,307 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Страница — 1" id="WfPRvDOI_ep3vDONAgRM">
-    <mxGraphModel>
+    <mxGraphModel dx="1830" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-1" value="Владелец" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-2" target="Dvyglos1o1Vz0myfaQ09-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-2" value="&lt;b&gt;САЙТ&lt;/b&gt;&lt;div&gt;Заходит на сайт, на страницу паспорта, получает данные паспорта и себя, кэширует и шифрует их локально&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-3" target="Dvyglos1o1Vz0myfaQ09-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-3" value="&lt;b&gt;Сервер сайта&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="165" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-5" value="Инфа о пользователе и паспорте" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-12" value="&lt;b&gt;САЙТ&lt;/b&gt;&lt;div&gt;Получает данные о клиниках и в&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ыбирает клиники&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Dvyglos1o1Vz0myfaQ09-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-15" value="Инфа о клиниках" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-16" value="&lt;b&gt;Сервер сайта&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-18" target="Dvyglos1o1Vz0myfaQ09-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-18" value="&lt;b&gt;САЙТ&lt;/b&gt;&lt;div&gt;Выбирает врачей, время и животное&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-19" value="Таблица пользователей и питомец" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="500" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-3" target="Dvyglos1o1Vz0myfaQ09-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-22" value="Таблица всех клиник" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="500" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-16" target="Dvyglos1o1Vz0myfaQ09-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-25" target="Dvyglos1o1Vz0myfaQ09-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-25" value="Администратор клиники" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1226" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-26" value="Коллекция клиники" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="615" y="502.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-28" target="Dvyglos1o1Vz0myfaQ09-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-28" value="&lt;b&gt;Сервер сайта&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="605" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-28" target="Dvyglos1o1Vz0myfaQ09-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-31" target="Dvyglos1o1Vz0myfaQ09-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-31" value="&lt;b&gt;Сервер CRM&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="180" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-33" value="&lt;b&gt;CRM&lt;/b&gt;&lt;div&gt;Видит запись&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="185" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Dvyglos1o1Vz0myfaQ09-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="550" as="sourcePoint" />
+            <mxPoint x="670" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="550" as="sourcePoint" />
+            <mxPoint x="675" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-44" value="Изменяет занятость врачей" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="360" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-45" value="Инфа о врачах, их занятости и т.д." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-46" value="Запись (кэшированные&amp;nbsp;данные пользователя и паспорта)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-47" value="Запись" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.004;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-1" target="Dvyglos1o1Vz0myfaQ09-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-51" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Dvyglos1o1Vz0myfaQ09-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="845" y="70" as="sourcePoint" />
+            <mxPoint x="670" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-53" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="70" as="sourcePoint" />
+            <mxPoint x="840" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="70" as="sourcePoint" />
+            <mxPoint x="200" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-55" value="Уведомление об успешной записи" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="20" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-56" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Запись&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-50" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-57" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Время между записью и приемом&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="650" width="790" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-58" target="Dvyglos1o1Vz0myfaQ09-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-58" value="&lt;b&gt;Сервер CRM&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="730" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-59" value="&lt;b&gt;Сайт&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-61" value="Уведомления о приеме в определенное время" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-62" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Прием&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="840" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-63" value="Администратор клиники" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-64" target="Dvyglos1o1Vz0myfaQ09-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-64" value="&lt;b&gt;Сервер CRM&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="930" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-66" value="Смотрит был ли клиент в этой клинике" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="900" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-67" target="Dvyglos1o1Vz0myfaQ09-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-67" target="Dvyglos1o1Vz0myfaQ09-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-67" target="Dvyglos1o1Vz0myfaQ09-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-67" value="Коллекция клиники" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="1080" width="65" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-69" target="Dvyglos1o1Vz0myfaQ09-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-69" value="&lt;b&gt;CRM&lt;/b&gt;&lt;div&gt;Заносит информацию о приему&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-71" value="Был и мед книжка" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="767" y="1080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-73" target="Dvyglos1o1Vz0myfaQ09-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-73" value="&lt;b&gt;Сервер CRM&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-74" value="Коллекция клиники" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1080" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-77" value="&lt;b&gt;CRM сервер&lt;/b&gt;&lt;div&gt;Ищет мед книжку&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-79" value="Не был в клинике, но есть книжка" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1070" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-80" target="Dvyglos1o1Vz0myfaQ09-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-80" value="Таблица пользователей и питомец" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1080" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-77" target="Dvyglos1o1Vz0myfaQ09-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-85" value="Коллекция мед книжек" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1080" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-86" target="Dvyglos1o1Vz0myfaQ09-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-86" value="CRM&lt;div&gt;Админ заполняет книжку&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-89" value="Не был в клинике, нет мед книжки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-90" value="CRM Сервер" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-91" value="Коллекция мед книжкен" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1470" width="75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-92" value="Коллекция клиники" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1480" width="65" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-90" target="Dvyglos1o1Vz0myfaQ09-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-98" value="Ищет мед книжку" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1040" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-99" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Ищет мед книжку&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1040" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-100" value="&lt;b&gt;CRM&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.015;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-100" target="Dvyglos1o1Vz0myfaQ09-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-102" value="Добавление книжки в общую коллекцию книжек" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-103" value="Добавление книжки в коллекцию клиники" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-105" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;После приема&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="665" y="1680" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-106" target="Dvyglos1o1Vz0myfaQ09-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-106" value="Администратор клиники" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1800" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-107" target="Dvyglos1o1Vz0myfaQ09-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-107" value="&lt;b&gt;CRM&lt;/b&gt;&lt;div&gt;Подтверждает прием или нет&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-109" value="&lt;b&gt;Сайт&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dvyglos1o1Vz0myfaQ09-110" target="Dvyglos1o1Vz0myfaQ09-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-110" value="&lt;b&gt;CRM Сервер&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-113" value="Прием прошел успешно" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1754" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dvyglos1o1Vz0myfaQ09-114" value="Так же изменяется информация в глобальной бд мед книжек" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1105" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
